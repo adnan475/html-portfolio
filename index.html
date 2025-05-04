@@ -1,9 +1,132 @@
-<h1>My top 5 Favourite Websites</h1>
-<!-- Write your code below -->
- <ol start="5">
-    <li><a href="https://moviesverse.mx/">Movies verse</a></li>
-    <li><a href="https://themoviesflix.casino/">MoviesFlix</a></li>
-    <li><a href="https://katmoviehd.fi/tag/hd/">KatMoviesHd</a></li>
-    <li><a href="https://mov.onl/movies">Mov.onl</a></li>
-    <li><a href="https://sflix.to/movie?page">Sflix</a></li>
- </ol>
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My top 5 Favourite Websites </title>
+   <style>
+      .highlight {
+    color: #008B8B;
+}
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1 {
+    background-color: darkgray;
+    color: #1A1A1A;
+    font-family: "Caveat", cursive;
+    border: 2px solid;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.grid-container div {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.grid-container img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+
+    transition: all 0.3 ease;
+}
+.grid-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1);
+}
+h2 {
+    margin-top: 0;
+}
+p {
+    text-align: justify;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .grid-container {
+    padding: 5px;
+  }
+  .grid-container div {
+    padding: 10px;
+  }
+}
+
+   
+        
+      
+
+   </style>
+ </head>
+ <body>
+   <h1>Top 5 Favourite <span class="highlight">Websites</span> for movies </h1>
+   <div class="grid-container">
+      <div class="movieverse">
+      <h2>Movieverse</h2>
+      <a href="https://moviesverse.mx/" target="_blank">
+         <img src="moviesverse.img.png" alt="movieverse screenshot" />
+      </a>
+  
+      
+      <p class="first-paragraph">Movieverse is your go-to place for free movies posters and updates. Discover posters from latest bollywood and hollywood,and south indian flims all in one spot.</p>
+      
+
+    </div>
+    <div class="movieflix">
+      <h2>Movieflix</h2>
+      <a href="https://themoviesflix.casino/" target="_blank">
+         <img src="moviesflix.img.png" alt="movieflix screenshot" />
+
+      </a>
+  
+      
+      <p class="second-paragraph">Moviesflix is one of my favourite website for downloading and watching online movies for free. It is also one of the old website which i've been using form a very long period of time.</p>
+      </div>
+      <div class="katmovieshd">
+         <h2>KatMovieHD</h2>
+         <a href="https://katmoviehd.fi/tag/hd/" target="_blank">
+             <img src="katmovieshd.img.png" alt="katmovieshd screenshot" />
+            </a>
+     
+         
+         <p class="third-paragraph">KatMovieHD is a popular website known for offering free downloads of the latest movies and web series, including Hollywood, Bollywood, and dubbed versions. It's widely used for quick access to new releases.</p>
+         </div>
+         <div class="mov.onl">
+            <h2>Mov.onl</h2>
+            <a href="https://mov.onl/movies" target="_blank">
+               <img src="mov.onl.img.png" alt="mov.onl screenshot" />
+            </a>
+        
+            
+            <p class="forth-paragraph">Mov.onl is a movie streaming platform where users can watch and download movies for free. It features a simple interface and a wide range of genres, including dubbed and regional films.</p>
+            </div>
+      <div class="sflix">
+               <h2>Sflix</h2>
+               <a href="https://sflix.to/movie?page" target="_blank">
+                  <img src="sflix.img.png" alt="sflix screenshot" />
+               </a>
+           
+               
+               <p class="fifth-paragraph">Sflix is a free streaming site that lets users watch the latest movies and TV shows online without needing to sign up. It offers HD content from Hollywood, Bollywood, and more.</p>
+               </div>
+            
+   
+      
+   </div>
+ </body>
+ </html>
